@@ -7,7 +7,7 @@ cask "clap" do
   desc "Local-first macOS clipboard & shell history manager"
   homepage "https://github.com/spongycode/clap"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "clap.app"
   binary "#{appdir}/clap.app/Contents/MacOS/clap"
